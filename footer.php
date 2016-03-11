@@ -15,9 +15,12 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'basic_cafe' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'basic_cafe' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'basic_cafe' ) ); ?>"><?php printf( esc_html__( 'Wordpress', 'basic_cafe' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
 			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'basic_cafe' ), 'basic_cafe', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+			
+			<p class="copyright">&copy; <?php echo date('Y'); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a>. All Rights Reserved.</p> 
+			
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

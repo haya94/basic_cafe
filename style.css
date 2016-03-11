@@ -1,7 +1,7 @@
 /*
 Theme Name: basic_cafe
 Theme URI: http://underscores.me/
-Author: Underscores.me
+Author: Aleena Aamir & Haya Kazmi
 Author URI: http://underscores.me/
 Description: Description
 Version: 1.0.0
@@ -54,8 +54,108 @@ html {
 }
 
 body {
-	margin: 100px;
+	margin: 0;
 }
+
+/*-----------------------------------
+    CHANGED ALL THIS FORM HERE:
+-------------------------------------*/
+.site-content{
+	background-color:yellow;
+	}
+
+.entry-content{
+	width: 70%;
+	background-color: green;
+	border: 10px solid black;
+	text-align: center;
+	padding: 30px;
+	margin: 10px;
+	}
+	
+.entry-title{
+	width: 90%;
+	text-align: center;
+}
+
+.main-navigation ul li a{
+	background-color: navy;
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+	width: auto;
+	}
+	
+
+/* Aleena on home page */
+h1.site-title {
+	background-color: pink;
+	color: red;
+}
+
+h2{
+	color: yellow;
+}
+
+h3{
+	color: navy;
+}
+
+h4{
+	color: red;
+}
+
+h5 h6{
+}
+
+.entry-meta{
+	width: 90%;
+	text-align: center;
+	}
+	
+.site-branding{
+	text-align: center;
+	background-color: blue;
+	}
+
+.site-description{
+	color: orange;
+}
+
+.site-navigation {
+	background-color: white;
+	}
+
+.page-header{
+	text-align: center;
+	}
+
+
+.entry-footer{
+	text-align: center;
+}
+	
+#sidebar{
+	border: 5px solid blue;
+	float: right;
+	background-color: pink;
+	width: 20%;
+	}
+
+#colophon{
+	background-color: red;
+	text-align: center;
+	}	
+	
+#comments{
+	background-color: grey;
+	text-align: center;
+}
+	
+/*-----------------------------------
+             TILL HERE
+-------------------------------------*/
+
 
 article,
 aside,
@@ -275,16 +375,6 @@ textarea {
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	clear: both;
-	color: orange;
 }
 
 p {
