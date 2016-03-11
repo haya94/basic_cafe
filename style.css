@@ -271,7 +271,6 @@ button,
 input,
 select,
 textarea {
-	color: green;
 	font-family: sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
@@ -285,6 +284,7 @@ h4,
 h5,
 h6 {
 	clear: both;
+	color: orange;
 }
 
 p {
@@ -734,7 +734,6 @@ a:active {
 .entry-content:after,
 .comment-content:before,
 .comment-content:after,
-.site-header:before,
 .site-header:after,
 .site-content:before,
 .site-content:after,
@@ -744,6 +743,12 @@ a:active {
 	display: table;
 	table-layout: fixed;
 }
+
+/*CHANGED THIS*/
+.site-header{
+	background: black;
+	}
+
 
 .clear:after,
 .entry-content:after,
