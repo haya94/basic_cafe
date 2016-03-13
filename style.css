@@ -72,6 +72,7 @@ body {
 	text-align: center;
 	padding: 30px;
 	margin: 10px;
+	float: right;
 	}
 	
 .entry-title{
@@ -80,17 +81,17 @@ body {
 }
 
 .main-navigation ul li a{
-	background-color: navy;
+	background-color: #C5CB6F;
 	text-align: center;
 	padding: 20px;
-	margin: 10px;
+	margin-bottom: 15px;
 	width: auto;
 	}
 	
 
 /* Aleena on home page */
 h1.site-title {
-	background-color: pink;
+	background: url('back.jpg');
 	color: red;
 }
 
@@ -116,11 +117,12 @@ h5 h6{
 	
 .site-branding{
 	text-align: center;
-	background-color: blue;
+	background: url('back.jpg');
 	}
 
 .site-description{
-	color: orange;
+	color: black;
+	font-weight: bold;
 }
 
 .site-navigation {
@@ -137,9 +139,9 @@ h5 h6{
 }
 	
 #sidebar{
-	border: 5px solid blue;
-	float: right;
-	background-color: #b3b300;
+	
+	float: left;
+	background-color: #C5CB6F;
 	width: 20%;
 	}
 
