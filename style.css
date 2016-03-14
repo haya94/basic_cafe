@@ -173,6 +173,17 @@ h5 h6{
 	text-align: center;
 }
 
+table{	
+	margin: 0 0 1.5em;
+    width: 30%;
+    border: 5px solid black;
+    background-color: #c5cb6f;
+}
+
+tr{
+	width: 20%;
+	}
+	
 /*-----------------------------------
              TILL HERE
 -------------------------------------*/
