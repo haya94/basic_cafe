@@ -1,6 +1,6 @@
 /*
 Theme Name: basic_cafe
-Theme URI: http://underscores.me/
+Theme URI: http://aleena&haya.me/
 Author: Aleena Aamir & Haya Kazmi
 Author URI: http://underscores.me/
 Description: Description
@@ -155,11 +155,10 @@ h5 h6{
 	background-color: grey;
 	text-align: center;
 }
-	
+
 /*-----------------------------------
              TILL HERE
 -------------------------------------*/
-
 
 article,
 aside,
@@ -177,8 +176,9 @@ summary {
 }
 
 /*-----------------------------------
-             Added this
+added this
 -------------------------------------*/
+
 
 main {
 	border-top: brown solid;
@@ -191,8 +191,9 @@ main {
 }
 
 /*-----------------------------------
-             till here
+till here
 -------------------------------------*/
+
 
 audio,
 canvas,
@@ -393,10 +394,20 @@ button,
 input,
 select,
 textarea {
+	color: #404040;
 	font-family: sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
 }
 
 p {
@@ -846,6 +857,7 @@ a:active {
 .entry-content:after,
 .comment-content:before,
 .comment-content:after,
+.site-header:before,
 .site-header:after,
 .site-content:before,
 .site-content:after,
@@ -860,7 +872,6 @@ a:active {
 .site-header{
 	background: url('back.jpg');
 	}
-
 
 .clear:after,
 .entry-content:after,
