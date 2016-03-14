@@ -61,17 +61,14 @@ body {
     CHANGED ALL THIS FORM HERE
     the colors: #b3b300 #ff6666  #b3b300  #604020
 -------------------------------------*/
-.screen-reader-text {
-	display:none;
-}
 
 .site-content{
-	background-color: #604020;
+	background-color: #ffffff;
 	}
 
 .entry-content{
 	width: 70%;
-	background-color: #FF5558; 
+	background-color: #ffe6e6; 
 	border: 10px solid #604020;
 	text-align: center;
 	padding: 30px;
@@ -89,7 +86,7 @@ body {
 	text-align: center;
 	padding: 20px;
 	margin-bottom: 15px;
-	width: auto;
+	width: 100%;
 	}
 	
 
