@@ -22,6 +22,9 @@
 			<p class="copyright">&copy; <?php echo date('Y'); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a>. All Rights Reserved.</p> 
 			
 		</div><!-- .site-info -->
+		
+		
+		
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
