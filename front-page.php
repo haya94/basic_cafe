@@ -2,7 +2,7 @@
 /**
  * The template for displaying all pages.
  *
- * @package Fluffy
+ * @package basic_cafe
  */
 
 get_header(); ?>
