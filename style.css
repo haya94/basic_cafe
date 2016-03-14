@@ -67,17 +67,17 @@ body {
 	}
 
 .entry-content{
-	width: 70%;
+	width: 100%;
 	background-color: #ffe6e6; 
 	border: 10px solid #604020;
 	text-align: center;
 	padding: 30px;
 	margin: 10px;
-	float: right;
+
 	}
 	
 .entry-title{
-	width: 90%;
+	width: 100%;
 	text-align: center;
 }
 
