@@ -176,6 +176,21 @@ summary {
 	display: block;
 }
 
+/*-----------------------------------
+             Added this
+-------------------------------------*/
+
+main {
+	border: brown solid;
+	float: right;
+	width: 80%;
+	background: lightyellow;
+}
+
+/*-----------------------------------
+             till here
+-------------------------------------*/
+
 audio,
 canvas,
 progress,
