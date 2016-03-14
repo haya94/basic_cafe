@@ -57,6 +57,21 @@ body {
 	margin: 0;
 }
 
+table{
+border: red solid;
+
+}
+
+tr {
+
+border: blue solid;
+}
+
+td{
+width:9em;
+border: red solid;
+}
+
 /*-----------------------------------
     CHANGED ALL THIS FORM HERE
     the colors: #b3b300 #ff6666  #b3b300  #604020
