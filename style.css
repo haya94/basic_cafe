@@ -60,15 +60,17 @@ body {
 table{
 border: red solid;
 
+
 }
 
 tr {
 
 border: blue solid;
+padding: 20px;
 }
 
 td{
-width:9em;
+
 border: red solid;
 }
 
