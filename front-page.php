@@ -11,7 +11,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 		
 	
-<!-- Code for showing posts form a particular category retrieved from: 		 https://codex.wordpress.org/Class_Reference/WP_Query
+<!-- Code for showing posts form a particular category retrieved from: 	 https://codex.wordpress.org/Class_Reference/WP_Query
 
 Code for pagination retrieved from:
 http://codex.wordpress.org/Pagination#Adding_the_.22paged.22_parameter_to_a_query 
