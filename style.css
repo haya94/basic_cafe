@@ -181,10 +181,13 @@ summary {
 -------------------------------------*/
 
 main {
-	border: brown solid;
+	border-top: brown solid;
+	border-bottom: brown solid;
 	float: right;
-	width: 80%;
+	width: 100%;
+	text-align: center;
 	background: lightyellow;
+	
 }
 
 /*-----------------------------------
