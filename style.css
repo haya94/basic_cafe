@@ -58,40 +58,30 @@ body {
 	margin: 0;
 }
 
-table{
-border: red solid;
-
-
-}
-
-tr {
-
-border: blue solid;
-padding: 20px;
-}
-
-td{
-
-border: red solid;
-}
 
 /*-----------------------------------
     CHANGED ALL THIS FORM HERE
-    the colors: #b3b300 #ff6666  #b3b300  #604020
 -------------------------------------*/
 
 .site-content{
 	background-color: #ffffff;
 	}
 
-.entry-content{
-	width: 100%;
-	background-color: #ffe6e6; 
-	border: 10px solid #604020;
-	text-align: center;
-	padding: 30px;
-	margin: 10px;
+.site-title{
+	width: 100%
+	height: auto;
+	font-size: 50px;
+	font-family: 'Comic Sans' Times New Roman, sans serif;
+	font-weight: normal;
+}
 
+.entry-content{
+	margin: auto;
+    width: 100%;
+    height: auto;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    background-color: pink;
 	}
 	
 .entry-title{
@@ -115,6 +105,8 @@ h1.site-title {
 }
 
 h2{
+	font-size: 15px;
+	text-align: center;
 	color: yellow;
 }
 
@@ -126,13 +118,36 @@ h4{
 	color: red;
 }
 
-h5 h6{
+h5{
+	display: none;
+	font-size: 20px;
+	color: red;
 }
 
 .entry-meta{
-	width: 90%;
+	width: 80%;
 	text-align: center;
 	}
+
+.site-main{
+	width: 80%;
+	height:auto;
+	padding: 10px;
+}
+
+#sidebar{
+	float: left;
+	background-color: #C5CB6F;
+	width: 20%;
+	padding: 5px;
+	font-size: 15px;
+	margin: 0;
+	}
+
+ul li{
+	color: red;
+	padding: 2px;
+}
 	
 .site-branding{
 	text-align: center;
@@ -152,17 +167,9 @@ h5 h6{
 	text-align: center;
 	}
 
-
 .entry-footer{
 	text-align: center;
 }
-	
-#sidebar{
-	
-	float: left;
-	background-color: #C5CB6F;
-	width: 20%;
-	}
 
 #colophon{
 	background-color: #FF5558;
@@ -172,19 +179,16 @@ h5 h6{
 #comments{
 	background-color: grey;
 	text-align: center;
+	width: 50%;
+	text-align: center;
 }
 
-table{	
-	margin: 0 0 1.5em;
-    width: 30%;
-    border: 5px solid black;
-    background-color: #c5cb6f;
+img{
+	padding: 10px;
+	margin-top: 50px;
+	height: auto;
+	width: 80%;
 }
-
-tr{
-	width: 20%;
-	}
-	
 /*-----------------------------------
              TILL HERE
 -------------------------------------*/
@@ -210,12 +214,11 @@ added this
 
 
 main {
-	border-top: brown solid;
-	border-bottom: brown solid;
 	float: right;
 	width: 100%;
+	height: auto;
 	text-align: center;
-	background: lightyellow;
+	background: #ffffff;
 	
 }
 
@@ -565,9 +568,21 @@ img {
 
 table {
 	margin: 0 0 1.5em;
-	width: 100%;
+	width: 30%;
+	border: 4px solid darkgreen;
+	background-color: #c5cb6f;
 }
 
+tr {
+border: 2px solid green;
+padding: 20px;
+width: 30px;
+}
+
+td{
+border: 2px solid lightgreen;
+width: 30px;
+}
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
