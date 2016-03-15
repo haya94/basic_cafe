@@ -1,7 +1,7 @@
 <?php
 	
 function cd_add_submenu() {
-		add_submenu_page( 'themes.php', 'My Super Awesome Options Page', 'Theme Options', 'manage_options', 'theme_options', 'my_theme_options_page');
+		add_submenu_page( 'themes.php', 'Basic Cafe Options Page', 'Theme Options', 'manage_options', 'theme_options', 'my_theme_options_page');
 	}
 add_action( 'admin_menu', 'cd_add_submenu' );
 	
@@ -104,7 +104,7 @@ function cd_settings_init() {
 	function my_theme_options_page(){ 
 		?>
 		<form action="options.php" method="post">
-			<h2>My Awesome Options Page</h2>
+			<h2>Basic Cafe Options</h2>
 			<?php
 			settings_fields( 'theme_options' );
 			do_settings_sections( 'theme_options' );

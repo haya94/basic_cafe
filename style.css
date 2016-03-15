@@ -108,7 +108,7 @@ h1.site-title {
 h2{
 	font-size: 15px;
 	text-align: center;
-	color: yellow;
+	color: darkgreen;
 }
 
 h3{
@@ -148,9 +148,10 @@ text-align: center;
 
 #sidebar{
 	float: left;
-	background-color: #C5CB6F;
+	background-color: #ffffff;
 	width: 20%;
 	padding: 5px;
+	margin: 0,0;
 	font-size: 15px;
 	margin: 0;
 	}
