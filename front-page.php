@@ -16,7 +16,7 @@ get_header(); ?>
 	<?php	 
 		
 		$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-		$haya=array('showposts'=> 5, 'cat'=>'10', 'paged' => $paged );
+		$haya=array('showposts'=> 6, 'cat'=>'11', 'paged' => $paged );
 		$my_query= new WP_Query($haya);
 ?>
 

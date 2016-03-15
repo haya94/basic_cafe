@@ -64,8 +64,17 @@ body {
 -------------------------------------*/
 
 .site-content{
-	background-color: #ffffff;
+	background-color: black;
 	}
+
+main {
+	float: right;
+	width: 80%;
+	height: auto;
+	text-align: center;
+	background: #260033;
+	
+}
 
 .site-title{
 	width: 100%
@@ -90,18 +99,8 @@ body {
 	text-align: center;
 }
 
-.main-navigation ul li a{
-	background-color: #C5CB6F;
-	text-align: center;
-	padding: 20px;
-	margin-bottom: 15px;
-	width: 100%;
-	}
-	
-
 /* Aleena on home page */
 h1.site-title {
-	background: url('back.jpg');
 	color: red;
 }
 
@@ -163,16 +162,18 @@ ul li{
 	
 .site-branding{
 	text-align: center;
-	background: url('back.jpg');
 	}
 
 .site-description{
-	color: black;
+	font-family: 'Arial', Times New Roman, sans serif;
+	font-style: italic;
+	font-size: 20px;
 	font-weight: bold;
+	color: #C5CB6F;
 }
 
 .site-navigation {
-	background-color: white;
+	background-color: #ffffff;
 	}
 
 .page-header{
@@ -184,7 +185,7 @@ ul li{
 }
 
 #colophon{
-	background-color: #FF5558;
+	background-color: #8600b3;
 	text-align: center;
 	}	
 	
@@ -228,21 +229,6 @@ img{
 
 /* Old and New Posts */
 
-.alignleft {
-    float: left;
-    background-color: pink;
-	padding: 20px;
-	border: 2px solid green;
-	border-radius: 30%;
-}
-	
-.alignright {
-    float: right;
-    background-color: pink;
-	padding: 20px;
-	border: 2px solid green;
-	border-radius: 30%;
-}
 
 /*-----------------------------------
              TILL HERE
@@ -259,25 +245,6 @@ section,
 summary {
 	display: block;
 }
-
-/*-----------------------------------
-added this
--------------------------------------*/
-
-
-main {
-	float: right;
-	width: 80%;
-	height: auto;
-	text-align: center;
-	background: #ffffff;
-	
-}
-
-/*-----------------------------------
-till here
--------------------------------------*/
-
 
 audio,
 canvas,
@@ -774,11 +741,18 @@ a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-.main-navigation {
-	clear: both;
-	display: block;
-	float: left;
+.main-navigation ul li a{
+	background-color: #C5CB6F;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 15px;
 	width: 100%;
+	border-radius: 20%;
+	}
+	
+.main-navigation ul li a:hover{
+	opacity: 0.9;
+	background-color: pink;
 }
 
 .main-navigation ul {
@@ -789,7 +763,7 @@ a:active {
 }
 
 .main-navigation li {
-	float: left;
+	float: right;
 	position: relative;
 }
 
@@ -926,15 +900,19 @@ a:active {
 # Alignments
 --------------------------------------------------------------*/
 .alignleft {
-	display: inline;
-	float: left;
-	margin-right: 1.5em;
+    float: left;
+    background-color: pink;
+	padding: 20px;
+	border: 2px solid green;
+	border-radius: 30%;
 }
-
+	
 .alignright {
-	display: inline;
-	float: right;
-	margin-left: 1.5em;
+    float: right;
+    background-color: pink;
+	padding: 20px;
+	border: 2px solid green;
+	border-radius: 30%;
 }
 
 .aligncenter {
@@ -966,7 +944,11 @@ a:active {
 
 /*CHANGED THIS*/
 .site-header{
-	background: url('back.jpg');
+	background: url('pic.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: auto;
 	}
 
 .clear:after,
@@ -1148,3 +1130,11 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/*--------------------------------------------------------------
+## Image References
+--------------------------------------------------------------*/
+
+/* Header Image: https://pixabay.com/en/wallpaper-background-multi-colored-978188/ 
+*
+*/
