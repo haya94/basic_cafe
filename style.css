@@ -224,7 +224,25 @@ img{
 .comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous:hover {
 	opacity: 0.7;
 }
+
+/* Old and New Posts */
+
+.alignleft {
+    float: left;
+    background-color: pink;
+	padding: 20px;
+	border: 2px solid green;
+	border-radius: 30%;
+}
 	
+.alignright {
+    float: right;
+    background-color: pink;
+	padding: 20px;
+	border: 2px solid green;
+	border-radius: 30%;
+}
+
 /*-----------------------------------
              TILL HERE
 -------------------------------------*/
