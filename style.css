@@ -72,7 +72,7 @@ body {
 -------------------------------------*/
 
 .site-content{
-	background-color: black;
+	background-color: #260033;
 	}
 
 main {
@@ -81,7 +81,6 @@ main {
 	height: auto;
 	text-align: center;
 	background: #260033;
-	
 }
 
 .site-title{
@@ -156,12 +155,13 @@ text-align: center;
 #sidebar{
 	float: left;
 	background-color: #ffffff;
+	border-radius: 25%;
 	width: 20%;
-	padding: 5px;
+	padding: 15px;
 	margin: 0,0;
+	margin-top: 50px;
 	font-size: 15px;
-	margin: 0;
-	}
+}
 
 ul li{
 	color: red;
@@ -193,7 +193,7 @@ ul li{
 }
 
 #colophon{
-	background-color: #8600b3;
+	background-color: #C5CB6F;
 	text-align: center;
 	}	
 	
@@ -214,25 +214,25 @@ img{
 /* Previous and Next Post */
 
 .comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
-	background-color: pink;
+	background-color:#ffc0cb;
 	padding: 20px;
-	border: 2px solid green;
+	border: 2px solid #C5CB6F;
 	border-radius: 30%;
 }
 
 .comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
-	background-color: pink;
+	background-color:#ffc0cb;
 	padding: 20px;
-	border: 2px solid green;
+	border: 2px solid #C5CB6F;
 	border-radius: 30%;
 }
 
 .comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous:hover {
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 /* Old and New Posts */
@@ -617,8 +617,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
+	border: 2px solid #ffc0cb;
 	border-radius: 3px;
 	background: #e6e6e6;
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
@@ -626,7 +625,8 @@ input[type="submit"] {
 	font-size: 12px;
 	font-size: 0.75rem;
 	line-height: 1;
-	padding: .6em 1em .4em;
+	padding: 5px;
+	margin-left: 80px;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
@@ -634,7 +634,7 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa;
+	border-color: #C5CB6F;
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
 }
 
@@ -667,8 +667,10 @@ input[type="datetime-local"],
 input[type="color"],
 textarea {
 	color: #666;
-	border: 1px solid #ccc;
-	border-radius: 3px;
+	border: 2px solid #C5CB6F;;
+	border-radius: 30px;
+	width: 80%;
+	margin: 15px;
 }
 
 select {
@@ -792,7 +794,7 @@ a:active {
 	
 .main-navigation ul li a:hover{
 	opacity: 0.9;
-	background-color: pink;
+	background-color: #ffc0cb;
 }
 
 .main-navigation ul {
@@ -941,18 +943,40 @@ a:active {
 --------------------------------------------------------------*/
 .alignleft {
     float: left;
-    background-color: pink;
+    background-color:#ffc0cb;
 	padding: 20px;
-	border: 2px solid green;
+	border: 2px solid #C5CB6F;
 	border-radius: 30%;
+	color: red;
+	text-decoration:
 }
-	
+
+.alignleft :visited{
+    opacity: 0.8;
+    color: blue;
+}
+
+.alignleft :hover{
+    opacity: 0.8;
+    color: red;
+}
+
 .alignright {
     float: right;
-    background-color: pink;
+    background-color: #ffc0cb;
 	padding: 20px;
-	border: 2px solid green;
+	border: 2px solid #C5CB6F;
 	border-radius: 30%;
+}
+
+.alignright :visited{
+    opacity: 0.8;
+    color: blue;
+}
+
+.alignright :hover{
+    opacity: 0.8;
+    color: red;
 }
 
 .aligncenter {
