@@ -82,6 +82,7 @@ body {
     border: 3px solid #73AD21;
     padding: 10px;
     background-color: pink;
+	display: inline-block;
 	}
 	
 .entry-title{
@@ -112,6 +113,7 @@ h2{
 
 h3{
 	color: navy;
+	text-align: center;
 }
 
 h4{
@@ -125,14 +127,23 @@ h5{
 }
 
 .entry-meta{
-	width: 80%;
 	text-align: center;
 	}
 
 .site-main{
-	width: 80%;
+
 	height:auto;
 	padding: 10px;
+}
+
+img.avatar.avatar-32.photo.avatar-default {
+	width: 15%;
+
+}
+
+form#commentform.comment-form
+{
+text-align: center;
 }
 
 #sidebar{
@@ -178,16 +189,16 @@ ul li{
 	
 #comments{
 	background-color: grey;
-	text-align: center;
+	text-align: left;
 	width: 50%;
-	text-align: center;
+	display: inline-block;
 }
 
 img{
 	padding: 10px;
 	margin-top: 50px;
 	height: auto;
-	width: 80%;
+	width: 60%;
 }
 /*-----------------------------------
              TILL HERE
@@ -822,7 +833,7 @@ a:active {
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
 	float: left;
-	width: 50%;
+
 }
 
 .comment-navigation .nav-next,
@@ -830,7 +841,7 @@ a:active {
 .post-navigation .nav-next {
 	float: right;
 	text-align: right;
-	width: 50%;
+
 }
 
 /*--------------------------------------------------------------
