@@ -167,7 +167,7 @@ ul li{
 .site-description{
 	font-family: 'Arial', Times New Roman, sans serif;
 	font-style: italic;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: bold;
 	color: #C5CB6F;
 }
@@ -721,6 +721,38 @@ a {
 
 a:visited {
 	color: purple;
+}
+
+h1.site-title :active {
+	color: #C5CB6F;
+}
+
+h1.site-title :visited {
+	color: #C5CB6F;
+}
+
+h1.site-title :hover {
+	color: yellow;
+}
+
+h1.site-title :focus {
+	color: red;
+}
+
+p.site-title :active {
+	color: #C5CB6F;
+}
+
+p.site-title :visited {
+	color: #C5CB6F;
+}
+
+p.site-title :hover {
+	color: yellow;
+}
+
+p.site-title :focus {
+	color: red;
 }
 
 a:hover,
