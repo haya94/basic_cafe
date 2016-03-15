@@ -6,6 +6,9 @@
  *
  * @package basic_cafe
  */
+ 
+ // Call the file that controls the theme options
+require get_stylesheet_directory() . '/inc/options.php';
 
 if ( ! function_exists( 'basic_cafe_setup' ) ) :
 /**
