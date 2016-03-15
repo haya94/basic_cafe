@@ -7,7 +7,6 @@
  * @package basic_cafe
  */
 
-
 if ( ! function_exists( 'basic_cafe_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.

@@ -12,7 +12,8 @@ get_header(); ?>
 		
 		
 <!--codes from codex.wordpress.org, developer.wordpress.org -->
-		
+
+	
 	<?php	 
 		
 		$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;

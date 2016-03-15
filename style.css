@@ -58,6 +58,14 @@ body {
 	margin: 0;
 }
 
+.menu-toggle {
+	background: transparent;
+	border: none;			
+}
+		
+.menu-toggle:before{
+	content: url('icon.jpg');
+}
 
 /*-----------------------------------
     CHANGED ALL THIS FORM HERE
