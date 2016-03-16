@@ -35,11 +35,10 @@ get_header(); ?>
 <?php endif; ?>
 
 
-
 	</article><!-- #post-## -->
 	<?php endwhile; endif; ?>
 	
-		<!-- Place somewhere in the <body> of your page -->
+		<!-- This function links the slider images and links when you click on the slider image -->
 <div class="flexslider">
 
 <h7> Top 5 </h7>
@@ -61,7 +60,6 @@ get_header(); ?>
     </li>
   </ul>
 </div>
-	
 	
 		</main><!-- #main -->
 	</div><!-- #primary -->
