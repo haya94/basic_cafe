@@ -157,4 +157,4 @@ require get_template_directory() . '/inc/jetpack.php';
 
 wp_enqueue_script( 'basic_cafe-flexslider', get_stylesheet_directory_uri() . '/js/jquery.flexslider-min.js', array('jquery'), '2.6.0', true );
 
-wp_enqueue_script( 'basic_cafe-flexslider.js', get_stylesheet_directory_uri() . '/js/flexslider.js', array('jquery'), '1.0', true ); 
+wp_enqueue_script( 'basic_cafe-flexslider.js', get_stylesheet_directory_uri() . '/js/flexslider.js', array('jquery'), '1.0', true );
