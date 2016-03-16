@@ -1159,6 +1159,40 @@ object {
 	max-width: 100%;
 }
 
+ol{
+	display:none;
+}
+
+.flex-viewport{
+	border: 10px solid pink;
+}
+
+.flex-direction-nav{
+	list-style-type: none;
+}
+
+.flex-prev{
+	background-color: purple;
+	border-radius: 50%;
+	padding: 10px;
+	color: pink;
+	float: left;
+	margin: 5px;
+	text-decoration:none;
+}
+
+.flex-next{
+	background-color: purple;
+	border-radius: 50%;
+	padding: 10px;
+	color: pink;
+	float: right;
+	margin-right: 15px;
+	text-decoration:none;
+}
+
+
+	
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
