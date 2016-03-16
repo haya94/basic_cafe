@@ -17,7 +17,7 @@ get_header(); ?>
 	<?php	 
 		
 		$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-		$haya=array('showposts'=> 5, 'cat'=>'13', 'paged' => $paged );
+		$haya=array('showposts'=> 5, 'cat'=>'2', 'paged' => $paged );
 		$my_query= new WP_Query($haya);
 ?>
 
@@ -41,6 +41,8 @@ get_header(); ?>
 	
 		<!-- Place somewhere in the <body> of your page -->
 <div class="flexslider">
+
+<h7> Top 5 </h7>
   <ul class="slides">
     <li>
       <a href="http://phoenix.sheridanc.on.ca/~ccit3402/index.php/2016/03/14/basic-club/"><img src="http://phoenix.sheridanc.on.ca/~ccit3402/wp-content/uploads/2016/03/club-sandwich-166229_1280.jpg" /></a>

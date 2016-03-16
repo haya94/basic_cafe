@@ -67,6 +67,7 @@ body {
 	content: url('icon.jpg');
 }
 
+
 /*-----------------------------------
     CHANGED ALL THIS FORM HERE
 -------------------------------------*/
@@ -658,6 +659,10 @@ input[type="submit"] {
 
 }
 
+input.search-submit {
+	margin-left: 85px;
+}
+
 
 button:hover,
 input[type="button"]:hover,
@@ -751,6 +756,13 @@ textarea {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
+
+
+select#archives-dropdown-2{
+margin-left: 23%;
+}
+
+
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
@@ -832,11 +844,13 @@ a:active {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
+	float: left;
+	margin-left:50px;
 }
 
 .main-navigation li {
-	float: right;
-	position: relative;
+	float: left;
+	margin-left:25px;
 }
 
 .main-navigation a {
@@ -900,14 +914,6 @@ a:active {
 	display: block;
 }
 
-@media screen and (min-width: 37.5em) {
-	.menu-toggle {
-		display: none;
-	}
-	.main-navigation ul {
-		display: block;
-	}
-}
 
 .site-main .comment-navigation,
 .site-main .posts-navigation,
