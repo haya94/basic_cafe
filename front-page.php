@@ -2,7 +2,7 @@
 /**
  * The template for displaying all pages.
  *
- * @package Fluffy
+ * @package Basic Cafe
  */
 
 get_header(); ?>
@@ -17,7 +17,7 @@ get_header(); ?>
 	<?php	 
 		
 		$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-		$haya=array('showposts'=> 5, 'cat'=>'1', 'paged' => $paged );
+		$haya=array('showposts'=> 5, 'cat'=>'13', 'paged' => $paged );
 		$my_query= new WP_Query($haya);
 ?>
 
@@ -30,17 +30,13 @@ get_header(); ?>
 
 <?php if ( has_post_thumbnail() ) : ?>
     <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-        <?php the_post_thumbnail('medium'); ?>
+        <?php the_post_thumbnail('large'); ?>
     </a>
 <?php endif; ?>
 
 	</article><!-- #post-## -->
 	<?php endwhile; endif; ?>
 	
-<div class="nav-previous alignleft"><?php next_posts_link( '&larr; Older posts' ); ?></div>
-<div class="nav-next alignright"><?php previous_posts_link( 'Newer posts &rarr;' ); ?></div>
-
-
 	
 		</main><!-- #main -->
 	</div><!-- #primary -->
