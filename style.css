@@ -482,8 +482,6 @@ h5{
 	clear: both;
 }
 
-
-
 p {
 	margin-bottom: 1.5em;
 }
@@ -660,7 +658,7 @@ input[type="submit"] {
 }
 
 input.search-submit {
-	margin-left: 85px;
+	margin-left: 95px;
 }
 
 
@@ -759,7 +757,7 @@ textarea {
 
 
 select#archives-dropdown-2{
-margin-left: 23%;
+margin-left: 25%;
 }
 
 

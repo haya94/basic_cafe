@@ -41,7 +41,7 @@ get_header(); ?>
 		<!-- This function links the slider images and links when you click on the slider image -->
 <div class="flexslider">
 
-<h7> Top 5 </h7>
+<h3> Top 5 </h3>
   <ul class="slides">
     <li>
       <a href="http://phoenix.sheridanc.on.ca/~ccit3402/index.php/2016/03/14/basic-club/"><img src="http://phoenix.sheridanc.on.ca/~ccit3402/wp-content/uploads/2016/03/club-sandwich-166229_1280.jpg" /></a>
