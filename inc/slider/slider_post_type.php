@@ -44,9 +44,6 @@
 
 
 
-
-
-
 // Meta Box for Slider URL
      
     $slidelink_2_metabox = array( 

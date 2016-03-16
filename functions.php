@@ -158,3 +158,15 @@ require get_template_directory() . '/inc/jetpack.php';
 wp_enqueue_script( 'basic_cafe-flexslider', get_stylesheet_directory_uri() . '/js/jquery.flexslider-min.js', array('jquery'), '2.6.0', true );
 
 wp_enqueue_script( 'basic_cafe-flexslider.js', get_stylesheet_directory_uri() . '/js/flexslider.js', array('jquery'), '1.0', true );
+
+ // Slider Shortcode
+ 
+    function wptuts_slider_shortcode() {
+        ob_start();
+        wptuts_slider_template();
+        $slider = ob_get_clean();
+        return $slider;
+    }
+    add_shortcode( 'slider', 'wptuts_slider_shortcode' );
+
+

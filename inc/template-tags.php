@@ -120,7 +120,7 @@ function basic_cafe_category_transient_flusher() {
 add_action( 'edit_category', 'basic_cafe_category_transient_flusher' );
 add_action( 'save_post',     'basic_cafe_category_transient_flusher' );
 
-// Create Slider
+// Slider Function retrieved from: http://code.tutsplus.com/tutorials/adding-a-responsive-jquery-slider-to-your-wordpress-theme--wp-27914
  
     function wptuts_slider_template() {
  
