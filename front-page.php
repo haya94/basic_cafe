@@ -34,8 +34,31 @@ get_header(); ?>
     </a>
 <?php endif; ?>
 
+
+
 	</article><!-- #post-## -->
 	<?php endwhile; endif; ?>
+	
+		<!-- Place somewhere in the <body> of your page -->
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <a href="http://phoenix.sheridanc.on.ca/~ccit3402/index.php/2016/03/14/basic-club/"><img src="http://phoenix.sheridanc.on.ca/~ccit3402/wp-content/uploads/2016/03/club-sandwich-166229_1280.jpg" /></a>
+    </li>
+    <li>
+      <a href="http://phoenix.sheridanc.on.ca/~ccit3402/index.php/2016/03/14/triple-chocolate-cake/"><img src="http://phoenix.sheridanc.on.ca/~ccit3402/wp-content/uploads/2016/03/cake-827399_1920.jpg" />
+    </li>
+    <li>
+       <a href="http://phoenix.sheridanc.on.ca/~ccit3402/index.php/2016/03/14/basic-blueberry/"><img src="http://phoenix.sheridanc.on.ca/~ccit3402/wp-content/uploads/2016/03/bowl-932980_1280.jpg" /></a>
+    </li>
+    <li>
+     <a href="http://phoenix.sheridanc.on.ca/~ccit3402/index.php/2016/03/14/strawberry-cheesecake/"><img src="http://phoenix.sheridanc.on.ca/~ccit3402/wp-content/uploads/2016/03/food-712117_1280.jpg" /></a>
+    </li>
+     <li>
+     <a href="http://phoenix.sheridanc.on.ca/~ccit3402/index.php/2016/03/14/beef-cheddar-burger/"><img src="http://phoenix.sheridanc.on.ca/~ccit3402/wp-content/uploads/2016/03/burger-760873_1920.jpg" /></a>
+    </li>
+  </ul>
+</div>
 	
 	
 		</main><!-- #main -->
