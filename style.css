@@ -62,7 +62,7 @@ body {
 	background: transparent;
 	border: none;			
 }
-		
+
 .menu-toggle:before{
 	content: url('icon.jpg');
 }
@@ -104,7 +104,9 @@ main {
 .entry-title{
 	width: 100%;
 	text-align: center;
+	color: #C5CB6F;
 }
+
 
 /* Aleena on home page */
 h1.site-title {
@@ -568,6 +570,7 @@ ol {
 
 ul {
 	list-style: disc;
+	margin: -1px;
 }
 
 ol {
@@ -615,8 +618,7 @@ width: 30px;
 --------------------------------------------------------------*/
 button,
 input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+input[type="reset"] {
 	border: 2px solid #ffc0cb;
 	border-radius: 3px;
 	background: #e6e6e6;
@@ -629,6 +631,21 @@ input[type="submit"] {
 	margin-left: 80px;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
+
+input[type="submit"] {
+	border: 2px solid #ffc0cb;
+	border-radius: 3px;
+	background: #e6e6e6;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+	color: rgba(0, 0, 0, .8);
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1;
+	padding: 5px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+
+}
+
 
 button:hover,
 input[type="button"]:hover,
@@ -716,7 +733,7 @@ input[type="color"] {
 
 textarea {
 	padding-left: 3px;
-	width: 100%;
+
 }
 
 /*--------------------------------------------------------------
@@ -764,6 +781,7 @@ p.site-title :hover {
 p.site-title :focus {
 	color: red;
 }
+
 
 a:hover,
 a:focus,
@@ -942,13 +960,13 @@ a:active {
 # Alignments
 --------------------------------------------------------------*/
 .alignleft {
-    float: left;
-    background-color:#ffc0cb;
+	display: inline;
+	float: left;
 	padding: 20px;
+	background-color: #ffc0cb;
 	border: 2px solid #C5CB6F;
 	border-radius: 30%;
 	color: red;
-	text-decoration:
 }
 
 .alignleft :visited{
@@ -962,11 +980,13 @@ a:active {
 }
 
 .alignright {
-    float: right;
-    background-color: #ffc0cb;
+	display: inline;
+	float: right;
 	padding: 20px;
+	background-color: #ffc0cb;
 	border: 2px solid #C5CB6F;
 	border-radius: 30%;
+	color: red;
 }
 
 .alignright :visited{
