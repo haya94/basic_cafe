@@ -108,32 +108,6 @@ main {
 }
 
 
-/* Aleena on home page */
-h1.site-title {
-	color: red;
-}
-
-h2{
-	font-size: 15px;
-	text-align: center;
-	color: darkgreen;
-}
-
-h3{
-	color: navy;
-	text-align: center;
-}
-
-h4{
-	color: red;
-}
-
-h5{
-	display: none;
-	font-size: 20px;
-	color: red;
-}
-
 .entry-meta{
 	text-align: center;
 	}
@@ -166,7 +140,7 @@ text-align: center;
 }
 
 ul li{
-	color: red;
+	color: #C5CB6F;
 	padding: 2px;
 }
 	
@@ -200,10 +174,11 @@ ul li{
 	}	
 	
 #comments{
-	background-color: grey;
+	background-color: #002266;
 	text-align: left;
 	width: 50%;
 	display: inline-block;
+	margin-bottom: 50px;
 }
 
 img{
@@ -453,7 +428,6 @@ th {
 body,
 button,
 input,
-select,
 textarea {
 	color: #404040;
 	font-family: sans-serif;
@@ -462,14 +436,52 @@ textarea {
 	line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+label,
+p {
+	color: #990099;
+	}
+
+a.url,
+time{
+	color: #C5CB6F;
+	text-decoration:none;
+}
+
+a.url:hover{
+	color:#C5CB6F;
+	}
+
+h1.site-title {
+	color: #C5CB6F;
 	clear: both;
 }
+
+h2{
+	font-size: 15px;
+	text-align: center;
+	color: #C5CB6F;
+	clear: both;
+}
+
+h3{
+	color: #C5CB6F;
+	text-align: center;
+	clear: both;
+}
+
+h4{
+	color: #C5CB6F;
+	clear: both;
+}
+
+h5{
+	display: none;
+	font-size: 20px;
+	color: #C5CB6F;
+	clear: both;
+}
+
+
 
 p {
 	margin-bottom: 1.5em;
@@ -1221,4 +1233,12 @@ object {
 
 /* Header Image: https://pixabay.com/en/wallpaper-background-multi-colored-978188/ 
 *
+* Mozzarella Sticks: https://www.flickr.com/photos/abbamouse/3824617005
+
+Sandwiches: https://pixabay.com/en/burger-sandwich-food-snack-meal-1015438/
+Cake: https://pixabay.com/en/bun-sweets-pastries-pastry-shop-268237/
+Ice Cream: https://pixabay.com/en/ice-cream-sundae-raspberry-cups-167571/
+Cold Beverages: https://pixabay.com/en/drink-ice-ice-drink-1185682/
+Hot Beverages: https://pixabay.com/en/coffee-beans-coffee-bean-drink-1117933/
+Sides: https://pixabay.com/en/food-salad-french-fries-vegetables-923219/
 */
