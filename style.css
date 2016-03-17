@@ -98,7 +98,6 @@ main {
 .entry-title{
 	width: 100%;
 	text-align: center;
-	color: #C5CB6F;
 }
 
 
@@ -129,7 +128,7 @@ text-align: center;
 	width: 20%;
 	padding: 20px;
 	margin: 0,0;
-	margin-top: 140px;
+	margin-top: 50px;
 	font-size: 15px;
 }
 
@@ -1246,12 +1245,26 @@ object {
 	content: url('icon.jpg');
 }
 
+<<<<<<< Updated upstream
 /* computer screen */
+=======
+
+@media screen and (max-width: 950px) {
+input.search-submit{
+margin-left: 45px;
+}
+
+select#archives-dropdown-2{
+margin-left: 5%;
+}
+}
+
+
+>>>>>>> Stashed changes
 @media screen and (max-width: 800px) {
 #sidebar{
 width:100%;
 padding: 50px;
-margin-top: 50px;
 }
 
 .main-navigation ul li a{
