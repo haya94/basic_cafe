@@ -41,7 +41,7 @@ get_header(); ?>
 		<!-- This code adds in the images for the slider and when you click on the image, it takes you to the post the image belongs to.  -->
 <div class="flexslider">
 
-<h3> Top 5 </h3>
+<h6> Top 5 </h6>
   <ul class="slides">
     <li>
       <a href="http://phoenix.sheridanc.on.ca/~ccit3402/index.php/2016/03/14/basic-club/"><img src="http://phoenix.sheridanc.on.ca/~ccit3402/wp-content/uploads/2016/03/club-sandwich-166229_1280.jpg" /></a>

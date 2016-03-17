@@ -84,7 +84,7 @@ main {
 	font-weight: normal;
 }
 
-.entry-content p{
+.entry-content {
 	color: green;
 	margin: auto;
     width: 70%;
@@ -407,13 +407,23 @@ optgroup {
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+	display:none;
 }
 
-td,
 th {
 	padding: 0;
+}
+
+tr {
+border: 2px solid green;
+padding: 20px;
+width: 30px;
+}
+
+td{
+border: 2px solid lightgreen;
+width: 30px;
+padding: 0;
 }
 
 /*--------------------------------------------------------------
@@ -459,6 +469,9 @@ h2{
 
 h3{
 	color: #C5CB6F;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
 	text-align: center;
 	clear: both;
 }
@@ -474,6 +487,16 @@ h5{
 	color: #C5CB6F;
 	clear: both;
 }
+
+h6{
+	color: #C5CB6F;
+	font-size: 50px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	clear: both;
+}
+
 
 p {
 	margin-bottom: 1.5em;
@@ -600,23 +623,6 @@ img {
 	max-width: 100%; /* Adhere to container width. */
 }
 
-table {
-	margin: 0 0 1.5em;
-	width: 30%;
-	border: 4px solid darkgreen;
-	background-color: #c5cb6f;
-}
-
-tr {
-border: 2px solid green;
-padding: 20px;
-width: 30px;
-}
-
-td{
-border: 2px solid lightgreen;
-width: 30px;
-}
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -758,11 +764,11 @@ margin-left: 25%;
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: #4169e1;
 }
 
 a:visited {
-	color: purple;
+	color: #800080;
 }
 
 h1.site-title :active {
@@ -774,11 +780,11 @@ h1.site-title :visited {
 }
 
 h1.site-title :hover {
-	color: yellow;
+	color: #ffff00;
 }
 
 h1.site-title :focus {
-	color: red;
+	color: #ffff00;
 }
 
 p.site-title :active {
@@ -790,18 +796,18 @@ p.site-title :visited {
 }
 
 p.site-title :hover {
-	color: yellow;
+	color: #ffff00;
 }
 
 p.site-title :focus {
-	color: red;
+	color: #ffff00;
 }
 
 
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: #191970;
 }
 
 a:focus {
@@ -966,7 +972,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-# Alignments
+# Alignments- this is the old and new post buttons
 --------------------------------------------------------------*/
 .alignleft {
 	display: inline;
@@ -1153,10 +1159,6 @@ object {
 }
 
 /*--------------------------------------------------------------
-## Slider
---------------------------------------------------------------*/
-	
-/*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
 .wp-caption {
@@ -1229,15 +1231,22 @@ object {
 }
 
 
+/*--------------------------------------------------------------
+## Responsive Design
+--------------------------------------------------------------*/
+
 .menu-toggle {
 	background: transparent;
 	border: none;			
 }
 
+/* at the breaking point the menu button turns into the icon with the navigation hidden under it*/
+
 .menu-toggle:before{
 	content: url('icon.jpg');
 }
 
+/* computer screen */
 @media screen and (max-width: 800px) {
 #sidebar{
 width:100%;
@@ -1272,6 +1281,8 @@ margin-left: 5%
  }   
 }
 
+/* for small computers, tablets, and iPads*/
+
 @media screen and (max-width: 600px) {
 #sidebar{
 width:100%;
@@ -1300,6 +1311,8 @@ margin-left: 5%
 	margin-left:50px;
 }
 }
+
+/* for mobile phones */
 
 @media screen and (max-width: 400px) {
 #sidebar{
