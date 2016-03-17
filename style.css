@@ -84,7 +84,8 @@ main {
 	font-weight: normal;
 }
 
-.entry-content{
+.entry-content p{
+	color: green;
 	margin: auto;
     width: 70%;
     height: auto;
@@ -93,7 +94,7 @@ main {
     background-color: pink;
 	display: inline-block;
 	}
-	
+
 .entry-title{
 	width: 100%;
 	text-align: center;
