@@ -3,7 +3,7 @@ Theme Name: basic_cafe
 Theme URI: http://aleena&haya.me/
 Author: Aleena Aamir & Haya Kazmi
 Author URI: http://underscores.me/
-Description: Description
+Description: Creating our theme based on our company (460 Assignment 2)
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -1251,8 +1251,6 @@ object {
 }
 
 /* computer screen */
-<<<<<<< Updated upstream
-
 
 @media screen and (max-width: 950px) {
 input.search-submit{
@@ -1264,8 +1262,6 @@ margin-left: 5%;
 }
 }
 
-=======
->>>>>>> Stashed changes
 @media screen and (max-width: 800px) {
 #sidebar{
 width:100%;

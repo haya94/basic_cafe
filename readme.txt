@@ -1,4 +1,4 @@
-=== basic_cafe ===
+=== basic_cafe Theme ===
 
 Contributors: Aleena Aamir and Haya Kazmi
 Tags: cafe, basic, theme
@@ -21,18 +21,18 @@ Hi. I'm a theme called basic_cafe.
 2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
 
-== Frequently Asked Questions ==
+== Options Page ==
 
-= Does this theme support any plugins? =
+1. In your admin panel, go to Appearance > basic_cafe theme options.
+2. The options will allow you to change multiple items.
 
-basic_cafe includes support for Infinite Scroll in Jetpack.
+== Custom Post Type ==
 
-== Changelog ==
+1. In your admin panel, go to Recipes.
+2. In this section you will be able to add custom blog posts related to recipes. 
 
-= 1.0 - May 12 2015 =
-* Initial release
 
 == Credits ==
 
 * Based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
-* normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
+*(C) 2016 Haya Kazmi (999833417) and Aleena Aamir (1000272046), [MIT](http://opensource.org/licenses/MIT)
