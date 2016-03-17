@@ -129,7 +129,7 @@ text-align: center;
 	width: 20%;
 	padding: 20px;
 	margin: 0,0;
-	margin-top: 50px;
+	margin-top: 140px;
 	font-size: 15px;
 }
 
@@ -1242,6 +1242,11 @@ object {
 #sidebar{
 width:100%;
 padding: 50px;
+margin-top: 50px;
+}
+
+.main-navigation ul li a{
+padding: 10px;
 }
 
 main{
@@ -1260,6 +1265,11 @@ margin-left: 5%
 	float: left;
 	margin-left:50px;
 }
+
+.entry-content{
+
+    width: 100%;
+ }   
 }
 
 @media screen and (max-width: 600px) {
@@ -1268,6 +1278,11 @@ width:100%;
 padding: 50px;
 }
 
+.main-navigation li{
+	float:none;
+	}
+	
+	
 main{
 width:100%;
 }
@@ -1308,6 +1323,8 @@ margin-left: 5%
 	margin-left:50px;
 }
 	
+	
+
 .site-main .comment-navigation, .site-main .posts-navigation, .site-main .post-navigation{
 margin: 90px;
 }

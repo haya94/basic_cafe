@@ -7,7 +7,6 @@
  * @package basic_cafe
  */
 
-require get_stylesheet_directory() .'/inc/options.php';
 
 if ( ! function_exists( 'basic_cafe_setup' ) ) :
 /**
