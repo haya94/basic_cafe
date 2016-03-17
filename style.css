@@ -58,14 +58,6 @@ body {
 	margin: 0;
 }
 
-.menu-toggle {
-	background: transparent;
-	border: none;			
-}
-
-.menu-toggle:before{
-	content: url('icon.jpg');
-}
 
 
 /*-----------------------------------
@@ -134,7 +126,7 @@ text-align: center;
 	background-color: #ffffff;
 	border-radius: 25%;
 	width: 20%;
-	padding: 15px;
+	padding: 20px;
 	margin: 0,0;
 	margin-top: 50px;
 	font-size: 15px;
@@ -1162,38 +1154,6 @@ object {
 /*--------------------------------------------------------------
 ## Slider
 --------------------------------------------------------------*/
-
-ol{
-	display:none;
-}
-
-.flex-viewport{
-	border: 10px solid pink;
-}
-
-.flex-direction-nav{
-	list-style-type: none;
-}
-
-.flex-prev{
-	background-color: purple;
-	border-radius: 50%;
-	padding: 10px;
-	float: left;
-	margin: 5px;
-	text-decoration:none;
-}
-
-.flex-next{
-	background-color: purple;
-	border-radius: 50%;
-	padding: 10px;
-	float: right;
-	margin-right: 15px;
-	text-decoration:none;
-}
-
-
 	
 /*--------------------------------------------------------------
 ## Captions
@@ -1266,6 +1226,104 @@ ol{
 .gallery-caption {
 	display: block;
 }
+
+
+.menu-toggle {
+	background: transparent;
+	border: none;			
+}
+
+.menu-toggle:before{
+	content: url('icon.jpg');
+}
+
+@media screen and (max-width: 800px) {
+#sidebar{
+width:100%;
+padding: 50px;
+}
+
+main{
+width:100%;
+}
+
+input.search-submit{
+margin-left: 15px;
+}
+
+select#archives-dropdown-2{
+margin-left: 5%
+}
+
+.main-navigation ul {
+	float: left;
+	margin-left:50px;
+}
+}
+
+@media screen and (max-width: 600px) {
+#sidebar{
+width:100%;
+padding: 50px;
+}
+
+main{
+width:100%;
+}
+
+input.search-submit{
+margin-left: 15px;
+}
+
+select#archives-dropdown-2{
+margin-left: 5%
+}
+
+.main-navigation ul {
+	float: left;
+	margin-left:50px;
+}
+}
+
+@media screen and (max-width: 400px) {
+#sidebar{
+width:100%;
+}
+
+main{
+width:100%;
+}
+
+input.search-submit{
+margin-left: 15px;
+}
+
+select#archives-dropdown-2{
+margin-left: 5%
+}
+
+.main-navigation ul {
+	float: left;
+	margin-left:50px;
+}
+	
+.site-main .comment-navigation, .site-main .posts-navigation, .site-main .post-navigation{
+margin: 90px;
+}
+
+}
+
+
+@media screen and (min-width: 37.5em) {
+	.menu-toggle {
+		display: none;
+	}
+	.main-navigation ul {
+		display: block;
+	}
+		
+}
+
 
 
 /*--------------------------------------------------------------

@@ -13,7 +13,7 @@ get_header(); ?>
 		
 <!--codes from codex.wordpress.org, developer.wordpress.org -->
 
-	
+
 	<?php	 
 		
 		$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
@@ -53,14 +53,14 @@ get_header(); ?>
        <a href="http://phoenix.sheridanc.on.ca/~ccit3402/index.php/2016/03/14/basic-blueberry/"><img src="http://phoenix.sheridanc.on.ca/~ccit3402/wp-content/uploads/2016/03/bowl-932980_1280.jpg" /></a>
     </li>
     <li>
-     <a href="http://phoenix.sheridanc.on.ca/~ccit3402/index.php/2016/03/14/strawberry-cheesecake/"><img src="http://phoenix.sheridanc.on.ca/~ccit3402/wp-content/uploads/2016/03/food-712117_1280.jpg" /></a>
+     <a href="http://phoenix.sheridanc.on.ca/~ccit3402/index.php/2016/03/14/oreo-cake/"><img src="http://phoenix.sheridanc.on.ca/~ccit3402/wp-content/uploads/2016/03/oreo-946527_1920.jpg" /></a>
     </li>
      <li>
      <a href="http://phoenix.sheridanc.on.ca/~ccit3402/index.php/2016/03/14/beef-cheddar-burger/"><img src="http://phoenix.sheridanc.on.ca/~ccit3402/wp-content/uploads/2016/03/burger-760873_1920.jpg" /></a>
     </li>
   </ul>
 </div>
-	
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
