@@ -85,13 +85,13 @@ main {
 }
 
 .entry-content {
-	color: green;
+	color: #008000;
 	margin: auto;
     width: 70%;
     height: auto;
     border: 3px solid #73AD21;
     padding: 10px;
-    background-color: pink;
+    background-color: #ffc0cb;
 	display: inline-block;
 	}
 
@@ -411,7 +411,7 @@ table {
 	border-spacing: 0;
 	margin: 0 0 1.5em;
 	width: 30%;
-	border: 4px solid darkgreen;
+	border: 4px solid #006400;
 }
 
 th {
@@ -419,13 +419,13 @@ th {
 }
 
 tr {
-border: 2px solid green;
+border: 2px solid #008000;
 padding: 20px;
 width: 30px;
 }
 
 td{
-border: 2px solid lightgreen;
+border: 2px solid #008000;
 width: 30px;
 padding: 0;
 }
