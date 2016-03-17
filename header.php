@@ -17,7 +17,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<!-- this code enqueues flexslider's stylesheet -->
+<!-- this code enqueues flexslider's stylesheet, retrieved from https://www.woothemes.com/flexslider/ -->
+
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/flexslider.css"/>
 
 <?php wp_head(); ?>

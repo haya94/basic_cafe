@@ -1,3 +1,5 @@
+/* this file was downloaded from https://www.woothemes.com/flexslider/ */
+
 /*
  * jQuery FlexSlider v2.6.0
  * Copyright 2012 WooThemes
