@@ -153,7 +153,7 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
-/*Slider function, retrieved from http://flexslider.woothemes.com */
+/*this function creates a flexslider on the home page, retrieved from http://flexslider.woothemes.com */
 
 wp_enqueue_script( 'basic_cafe-flexslider', get_stylesheet_directory_uri() . '/js/jquery.flexslider-min.js', array('jquery'), '2.6.0', true );
 
@@ -169,20 +169,23 @@ wp_enqueue_script( 'basic_cafe-flexslider.js', get_stylesheet_directory_uri() . 
         wp_enqueue_script( 'flex-script', get_template_directory_uri() .  '/basic_cafe/js/jquery.flexslider-min.js', array( 'jquery' ), false, true );
     }
     add_action( 'wp_enqueue_scripts', 'wptuts_slider_scripts' );
+    
+// Custom Post Type
+    
+// This function creates custom post type, so on wordpress dashboard, under posts and pages, theres a custom post type where the user can post articles related to the cateogry.  Retrieved from: https://codex.wordpress.org/Post_Types
 
-// Initialize Slider
- 
-    function wptuts_slider_initialize() { ?>
-        <script type="text/javascript" charset="utf-8">
-            jQuery(window).load(function() {
-                jQuery('.flexslider').flexslider({
-                    animation: "fade",
-                    direction: "horizontal",
-                    slideshowSpeed: 5000,
-                    animationSpeed: 500,
-                });
-            });
-        </script>
-    <?php }
-    add_action( 'wp_head', 'wptuts_slider_initialize' );
+add_action( 'init', 'create_post_type' );
+function create_post_type() {
+  register_post_type( 'acme_recipe',
+    array(
+      'labels' => array(
+        'name' => __( 'Recipe' ),
+        'singular_name' => __( 'Recipe' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+    )
+  );
+}
 
+?>
