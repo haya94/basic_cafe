@@ -1,11 +1,13 @@
 <?php
 
+/* This option function creates a customized setting page under appearance tab on wordpress. It will allow the client */
+
     $themename = "basic_cafe";
-    $shortname = "mnt";
+    $shortname = "bc";
 	
 	/* functions to andale the options array  */
 	
-	function mnt_get_formatted_page_array() { 
+	function bc_get_formatted_page_array() { 
 		global $suffusion_pages_array;
 		if (isset($suffusion_pages_array) && $suffusion_pages_array != null) {
 			return $suffusion_pages_array;
@@ -28,7 +30,7 @@
 		}
 	 }
 	
-	function mnt_get_category_array() { 
+	function bc_get_category_array() { 
 		global $suffusion_category_array;
 		if (isset($suffusion_category_array) && $suffusion_category_array != null) {
 			return $suffusion_category_array;
@@ -118,6 +120,8 @@
 		echo '</textarea>';
 		create_closing_tag($value);
 	 }
+	 
+	 /* this creates a textbox to enter hex code for color on the options page */
 	
 	function create_section_for_color_picker($value) { 
 		create_opening_tag($value);
@@ -151,7 +155,7 @@
 			else {
 				$checked = ' ';
 			}
-			echo '<div class="mnt-radio"><input type="radio" name="'.$value['id'].'" value="'.
+			echo '<div class="bc-radio"><input type="radio" name="'.$value['id'].'" value="'.
 				$option_value.'" '.$checked."/>".$option_text."</div>\n";
 		}
 		create_closing_tag($value);
@@ -159,7 +163,7 @@
 
 	function create_section_for_multi_select($value) { 
 		create_opening_tag($value);
-		echo '<ul class="mnt-checklist" id="'.$value['id'].'" >'."\n";
+		echo '<ul class="bc-checklist" id="'.$value['id'].'" >'."\n";
 		foreach ($value['options'] as $option_value => $option_list) {
 			$checked = " ";
 			if (get_option($value['id']."_".$option_value)) {
@@ -202,22 +206,22 @@
 	 }
 
 	$options = array( 
-		array("name" => "Header Customization",
+		array("name" => "Header",
 				"type" => "sub-section-3",
 				"category" => "header-styles",
 		),
 		array("name" => "Header Image",
-				"desc" => "Set the image to use for the header background. ",
+				"desc" => "Choose header image for the background. ",
 				"id" => $shortname."_header_background_image",
 				"type" => "text",
 				"parent" => "header-styles",
 				"std" => ""),
-		array("name" => "Body Background Settings",
+		array("name" => "Body Background",
 				"type" => "sub-section-3",
 				"category" => "body-styles",
 		),
-		array("name" => "Body Background Color",
-				"desc" => "Set the color of the background on which the page is. ",
+		array("name" => "Body Color",
+				"desc" => "Set the background color of the page. ",
 				"id" => $shortname."_body_background_color",
 				"type" => "color-picker",
 				"parent" => "body-styles",
@@ -226,22 +230,22 @@
 				"type" => "sub-section-3",
 				"category" => "sidebar-setup",
 		),
-		array("name" => "Sidebar Position",
+		array("name" => "Position of Sidebar",
 				"id" => $shortname."_sidebar_alignment",
 				"type" => "radio",
-				"desc" => "Which side would you like your sidebar?",
+				"desc" => "select where you want the sidebar to be.",
 				"options" => array("left" => "Left", "right" => "Right"),
 				"parent" => "sidebar-setup",
 				"std" => "right"),
-		array("name" => "Navigation Bar Setup",
+		array("name" => "Menu Bar",
 				"type" => "sub-section-3",
 				"category" => "nav-setup",
 		),
-		array("name" => "Pages to show in Navigation Bar",
+		array("name" => "Select the pages you want to show on your menu.",
 				"desc" => "Select the pages you want to include. All pages are excluded by default",
 				"id" => $shortname."_nav_pages",
 				"type" => "multi-select",
-				"options" => mnt_get_formatted_page_array($shortname."_nav_pages"),
+				"options" => bc_get_formatted_page_array($shortname."_nav_pages"),
 				"parent" => "nav-setup",
 				"std" => "none"
 		),
@@ -260,17 +264,17 @@
 				"desc" => "Select the category you want to include. All pages are excluded by default",
 				"id" => $shortname."_front_page_first_section",
 				"type" => "select",
-				"options" => mnt_get_category_array($shortname."_nav_pages"),
+				"options" => bc_get_category_array($shortname."_nav_pages"),
 				"parent" => "nav-setup",
-				"std" => mnt_get_category_array($shortname."_nav_pages")
+				"std" => bc_get_category_array($shortname."_nav_pages")
 		),
 		array("name" => "category posts to show on the front page below",
 				"desc" => "Select the category you want to include. All pages are excluded by default",
 				"id" => $shortname."_front_page_second_section",
 				"type" => "select-2",
-				"options" => mnt_get_category_array($shortname."_nav_pages"),
+				"options" => bc_get_category_array($shortname."_nav_pages"),
 				"parent" => "nav-setup",
-				"std" => mnt_get_category_array($shortname."_nav_pages")
+				"std" => bc_get_category_array($shortname."_nav_pages")
 		),
 	 );
 	
@@ -381,11 +385,11 @@ function mynewtheme_admin() {
     ?>
 <div class="wrap">
     <h2>Settings for <?php echo $themename; ?></h2>
-    <div class="mnt-options">
+    <div class="bc-options">
 <?php
     create_form($options);
 ?>
-    </div><!-- mnt-options -->
+    </div><!-- bc-options -->
 </div><!-- wrap -->
 <?php } // end function mynewtheme_admin()
 ?>
