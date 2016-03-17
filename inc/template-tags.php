@@ -119,3 +119,5 @@ function basic_cafe_category_transient_flusher() {
 }
 add_action( 'edit_category', 'basic_cafe_category_transient_flusher' );
 add_action( 'save_post',     'basic_cafe_category_transient_flusher' );
+
+

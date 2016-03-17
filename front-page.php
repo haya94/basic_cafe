@@ -38,7 +38,7 @@ get_header(); ?>
 	</article><!-- #post-## -->
 	<?php endwhile; endif; ?>
 	
-		<!-- This function links the slider images and links when you click on the slider image -->
+		<!-- This code adds in the images for the slider and when you click on the image, it takes you to the post the image belongs to.  -->
 <div class="flexslider">
 
 <h3> Top 5 </h3>
