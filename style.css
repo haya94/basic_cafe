@@ -1245,9 +1245,8 @@ object {
 	content: url('icon.jpg');
 }
 
-<<<<<<< Updated upstream
 /* computer screen */
-=======
+
 
 @media screen and (max-width: 950px) {
 input.search-submit{
@@ -1259,8 +1258,6 @@ margin-left: 5%;
 }
 }
 
-
->>>>>>> Stashed changes
 @media screen and (max-width: 800px) {
 #sidebar{
 width:100%;
