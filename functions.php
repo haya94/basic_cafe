@@ -7,9 +7,6 @@
  * @package basic_cafe
  */
 
-/* this enqueus the options page */
-require get_stylesheet_directory() . '/inc/options.php';
-
 if ( ! function_exists( 'basic_cafe_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
