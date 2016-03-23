@@ -168,9 +168,4 @@ wp_enqueue_script( 'basic_cafe-flexslider.js', get_stylesheet_directory_uri() . 
     }
     add_action( 'wp_enqueue_scripts', 'wptuts_slider_scripts' );
 
-// Custom Post Type
-    
-// This function creates custom post type, so on wordpress dashboard, under posts and pages, theres a custom post type where the user can post articles related to the cateogry.  Retrieved from: https://codex.wordpress.org/Post_Types
-
-
-
+?>
