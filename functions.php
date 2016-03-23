@@ -172,18 +172,5 @@ wp_enqueue_script( 'basic_cafe-flexslider.js', get_stylesheet_directory_uri() . 
     
 // This function creates custom post type, so on wordpress dashboard, under posts and pages, theres a custom post type where the user can post articles related to the cateogry.  Retrieved from: https://codex.wordpress.org/Post_Types
 
-add_action( 'init', 'create_post_type' );
-function create_post_type() {
-  register_post_type( 'acme_recipe',
-    array(
-      'labels' => array(
-        'name' => __( 'Recipe' ),
-        'singular_name' => __( 'Recipe' )
-      ),
-      'public' => true,
-      'has_archive' => true,
-    )
-  );
-}
 
-?>
+
