@@ -93,7 +93,7 @@ background: #C5CB6F;
   display: block;
 }
 .flexslider .slides:after {
-  content: "\0020";
+  content: ">";
   display: block;
   clear: both;
   visibility: hidden;
@@ -151,8 +151,8 @@ html[xmlns] .flexslider .slides {
 .flex-direction-nav a {
   text-decoration: none;
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   margin: -20px 0 0;
   position: absolute;
   top: 50%;
@@ -172,12 +172,12 @@ html[xmlns] .flexslider .slides {
   font-family: "flexslider-icon";
   font-size: 40px;
   display: inline-block;
-  content: '\f001';
+  content: '<';
   color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 .flex-direction-nav a.flex-next:before {
-  content: '\f002';
+  content:'>' ;
 }
 .flex-direction-nav .flex-prev {
 }
@@ -221,13 +221,13 @@ html[xmlns] .flexslider .slides {
   font-family: "flexslider-icon";
   font-size: 20px;
   display: inline-block;
-  content: '\f004';
+  content: ;
 }
 .flex-pauseplay a:hover {
   opacity: 1;
 }
 .flex-pauseplay a.flex-play:before {
-  content: '\f003';
+  content: ;
 }
 .flex-control-nav {
   width: 100%;
